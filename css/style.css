@@ -66,14 +66,13 @@ table{
   color: #FFFFFF;
   padding: 10px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   text-transform: uppercase;
   min-width: 125px;
 }
 
 .rowhead{
-
+  padding: 10px;
+  text-align: center;
 }
 
 td{
@@ -87,7 +86,11 @@ th.rowhead{
 }
 
 tr:nth-child(even){
-  background: #D1D1D1;
+  background-color: #D1D1D1;
+}
+
+tr:nth-child(odd){
+  background-color: transparent;
 }
 
 tr{
@@ -119,9 +122,9 @@ tr:last-child th:first-child{
 }
 
 footer{
-  position: sticky;
+  position: relative;
   width: 100%;
-  background:#000000;
+  background: #000000;
   text-align: center;
   color: #FFFFFF;
   min-height:75px
