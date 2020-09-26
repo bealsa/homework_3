@@ -18,6 +18,7 @@ body{
   background-position: center;
   background-color: #DDDDDD;
   background-repeat: no-repeat;
+  postion: relative;
 }
 
 main{
@@ -47,6 +48,7 @@ a{
 
 a:focus{
   background-color: #417243;
+  border-style: dashed;
 }
 
 table{
@@ -60,11 +62,14 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   padding: 10px;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   text-transform: uppercase;
+  min-width: 125px;
 }
 
 .rowhead{
@@ -115,7 +120,7 @@ tr:last-child th:first-child{
 
 footer{
   position: sticky;
-  width:100%;
+  width: 100%;
   background:#000000;
   text-align: center;
   color: #FFFFFF;
