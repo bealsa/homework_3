@@ -123,6 +123,7 @@ tr:last-child th:first-child{
 
 footer{
   position: relative;
+  bottom: 0;
   width: 100%;
   background: #000000;
   text-align: center;
